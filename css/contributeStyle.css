@@ -1,0 +1,37 @@
+#Contribute{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-image: url('../images/contributeBG-blurred.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contributeText{
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 15px;
+	float:left;
+	width: 60%;
+	box-sizing: border-box;
+	padding: 20px;
+	color:white;
+	margin-top:3%;
+}
+
+#Contribute img{
+	float:left;
+	box-sizing: border-box;
+	width: 30%;
+	margin:5%;
+}
+
+.contributeContainer{
+	display: inline-block;
+}
+
+.contributeContainer a{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	
+}

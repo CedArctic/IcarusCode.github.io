@@ -1,0 +1,31 @@
+#Contact{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-image: url('../images/contactBG.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactContainer{
+	background-color: rgba(204,204,204,0.7);
+	border-radius: 15px;
+	float:left;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	color:black;
+	margin-top:3%;
+}
+
+#contactText{
+	float:left;
+	box-sizing: border-box;
+	width:auto;
+}
+
+.contactContainer img{
+	float:left;
+	box-sizing: border-box;
+	margin:20px;
+}
