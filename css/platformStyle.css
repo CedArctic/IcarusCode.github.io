@@ -1,0 +1,34 @@
+#Platforms{
+	padding: 3%;
+	background-image: url('../images/platformsBG.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.platformText{
+	color: black;
+}
+
+.platform{
+	background-color: rgba(204,204,204,0.8);
+	border-radius: 15px;
+	color:white;
+	padding:10px;
+	margin:2% 0%;
+}
+
+.platform a{
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.platform img{
+	min-height: 50px;
+	max-height: 100px;
+	float:left;
+	margin:auto;
+	box-sizing: border-box;
+
+}
