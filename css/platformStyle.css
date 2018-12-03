@@ -1,9 +1,14 @@
 #Platforms{
-	padding: 3%;
+	padding: 100px 0px;
 	background-image: url('../images/platformsBG.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .platformText{
@@ -15,7 +20,11 @@
 	border-radius: 15px;
 	color:white;
 	padding:10px;
-	margin:2% 0%;
+	margin: 10px 0px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .platform a{
@@ -25,10 +34,6 @@
 }
 
 .platform img{
-	min-height: 50px;
-	max-height: 100px;
-	float:left;
-	margin:auto;
-	box-sizing: border-box;
-
+	height: 100px;
+	margin: 0px 20px;
 }
